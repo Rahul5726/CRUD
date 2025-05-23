@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// MongoDB connection
+// MongoDB connections
 mongoose.connect('mongodb://localhost:27017/userdb', {
   useNewUrlParser: true,
   useUnifiedTopology: true
